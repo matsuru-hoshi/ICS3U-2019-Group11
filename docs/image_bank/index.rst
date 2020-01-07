@@ -15,6 +15,11 @@ I'll be using these pictures of chocolate I found online and a poorly drawn set 
 
 Background:
 
+.. figure:: ./images/cinamon-chocolates.jpg
+    :height: 256 px
+    :align: center
+    :alt: chocolate and cinamon bars
+
 .. figure:: ./images/many-chocolates.jpg
     :height: 256 px
     :align: center
@@ -42,6 +47,8 @@ Go to my github repository at the bottom for more variations.
 Download the following images from my repository. These all link to the same repository.
 
 Background:
+`chocolate wrapped with cinamon <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg`_.
+`_.
 `chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>`_.
 `chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>`_.
 `red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>`_.
