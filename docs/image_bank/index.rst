@@ -47,7 +47,6 @@ Go to my github repository at the bottom for more variations.
 Download the following images from my repository. These all link to the same repository.
 
 Background:
-`cinnamon chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg>`_.
 `chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>`_.
 `chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>`_.
 `red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>`_.
