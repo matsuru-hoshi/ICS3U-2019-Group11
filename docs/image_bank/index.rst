@@ -14,11 +14,6 @@ Secondary Colour: #400707
 I'll be using these pictures of chocolate I found online and a poorly drawn set of logos.
 
 Background:
-
-.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg
-    :height: 256 px
-    :align: center
-    :alt: chocolate wrapped with cinnamon 
     
 .. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg
     :height: 256 px
