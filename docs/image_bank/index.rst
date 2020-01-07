@@ -15,7 +15,7 @@ I'll be using these pictures of chocolate I found online and a poorly drawn set 
 
 Background:
 
-.. figure:: ./images/cinamon-chocolates.jpg
+.. figure:: ./images/cinamon-chocolate.jpg
     :height: 256 px
     :align: center
     :alt: chocolate and cinamon bars
