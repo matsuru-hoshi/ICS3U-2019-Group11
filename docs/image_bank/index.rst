@@ -47,6 +47,7 @@ Go to my github repository at the bottom for more variations.
 Download the following images from my repository. These all link to the same repository.
 
 Background:
+Assets from other people can be found `here <https://github.com/MotherTeresaHS/ICS3U-2019-Group0/tree/master/docs/image_bank>`_.
 `cinnamon chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg>` 
 `chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>` 
 `chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>` 
