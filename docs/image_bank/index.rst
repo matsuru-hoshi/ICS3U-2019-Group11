@@ -15,28 +15,6 @@ I'll be using these pictures of chocolate I found online and a poorly drawn set 
 
 Background:
     
-.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg
-    :height: 256 px
-    :align: center
-    :alt: chocolate bars and cocoa powder
-    
-.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png
-    :height: 256 px
-    :align: center
-    :alt: chocolate bars with cocoa powder spread on top    
-
-.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg
-    :height: 256 px
-    :align: center
-    :alt: chocolate with some pretty red stuff on it
- 
-Logo:
-
-.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/logo/chzklkt-logo-red.png
-    :height: 256 px
-    :align: center
-    :alt: chzklkt logo
-    
 Go to my github repository at the bottom for more variations.
 
 Download the following images from my repository. These all link to the same repository.
