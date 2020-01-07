@@ -1,14 +1,57 @@
 
-Image Banks
+Images
 ===========
 
-Before we can start coding, we need to have the artwork and other assets. I'll be using these pictures of chocolate I found online.
+Before we can start coding, we need to have the artwork and other assets. These are merely for prettiness.
 
-Download the following images from my repository. 
+I've chosen some preset colours and font so I can always go back to it. This font is shoould be available by default on Windows and Mac
 
-.. figure:: https://raw.githubusercontent.com/MotherTeresaHS/ICS3U-2019-Group0/master/space_aliens.bmp
+Main Colour: #7d3f3b
+Font: Times Bold
+Secondary Colour: #400707
+
+
+I'll be using these pictures of chocolate I found online and a poorly drawn set of logos.
+
+Background:
+
+.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg
     :height: 256 px
     :align: center
-    :alt: chocolate
+    :alt: chocolate wrapped with cinnamon
+
+.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg
+    :height: 256 px
+    :align: center
+    :alt: chocolate bars and cocoa powder
+
+.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png
+    :height: 256 px
+    :align: center
+    :alt: chocolate bars with cocoa powder spread on top
+
+.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg
+    :height: 256 px
+    :align: center
+    :alt: chocolate with some pretty red stuff on it
+
+Logo:
+
+.. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/logo/chzklkt-logo-red.png
+    :height: 256 px
+    :align: center
+    :alt: chzklkt logo
     
-Assets from other people can be found `here <https://github.com/MotherTeresaHS/ICS3U-2019-Group0/tree/master/docs/image_bank>`_.
+Go to my github repository at the bottom for more variations.
+
+Download the following images from my repository. These all link to the same repository.
+
+Background:
+`cinnamon chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg>`
+`chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>`
+`chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>`
+`red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>`
+
+Logo:
+https://github.com/matsuru-hoshi/chzklkt-assets/tree/master/logo
+
