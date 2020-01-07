@@ -2,7 +2,7 @@
 Images
 ===========
 
-Before we can start coding, we need to have the artwork and other assets. These are merely for prettiness. 
+Before we can start coding, we need to have the artwork and other assets. These are merely for prettiness.
 
 I've chosen some preset colours and font so I can always go back to it. This font is shoould be available by default on Windows and Mac
 
@@ -18,23 +18,23 @@ Background:
 .. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg
     :height: 256 px
     :align: center
-    :alt: chocolate wrapped with cinnamon 
-    
+    :alt: chocolate wrapped with cinnamon
+
 .. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg
     :height: 256 px
     :align: center
     :alt: chocolate bars and cocoa powder
-    
+
 .. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png
     :height: 256 px
     :align: center
-    :alt: chocolate bars with cocoa powder spread on top    
+    :alt: chocolate bars with cocoa powder spread on top
 
 .. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg
     :height: 256 px
     :align: center
     :alt: chocolate with some pretty red stuff on it
- 
+
 Logo:
 
 .. figure:: https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/logo/chzklkt-logo-red.png
@@ -50,7 +50,7 @@ Background:
 `cinnamon chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg>`
 `chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>`
 `chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>`
-`red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>` 
+`red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>`
 
 Logo:
 https://github.com/matsuru-hoshi/chzklkt-assets/tree/master/logo
