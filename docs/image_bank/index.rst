@@ -47,11 +47,10 @@ Go to my github repository at the bottom for more variations.
 Download the following images from my repository. These all link to the same repository.
 
 Background:
-Assets from other people can be found `here <https://github.com/MotherTeresaHS/ICS3U-2019-Group0/tree/master/docs/image_bank>`_.
-`cinnamon chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg>` 
-`chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>` 
-`chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>` 
-`red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>` 
+`cinnamon chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/cinamon-chocolate.jpg>`_.
+`chocolate and cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/many-chocolates.jpg>`_.
+`chocolate with cocoa powder <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/powder-chocolate.png>`_.
+`red chocolate <https://github.com/matsuru-hoshi/chzklkt-assets/blob/master/website-images/red-chocolate.jpg>`_.
 
 Logo:
 https://github.com/matsuru-hoshi/chzklkt-assets/tree/master/logo
