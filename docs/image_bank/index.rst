@@ -14,6 +14,28 @@ Secondary Colour: #400707
 I'll be using these pictures of chocolate I found online and a poorly drawn set of logos.
 
 Background:
+
+.. figure:: ./images/many-chocolates.jpg
+    :height: 256 px
+    :align: center
+    :alt: chocolate bars and cocoa powder
+    
+.. figure:: ./images/powder-chocolate.png
+    :height: 256 px
+    :align: center
+    :alt: chocolate bars with cocoa powder spread on top    
+
+.. figure:: ./images/red-chocolate.jpg
+    :height: 256 px
+    :align: center
+    :alt: chocolate with some pretty red stuff on it
+ 
+Logo:
+
+.. figure:: ./images/chzklkt-logo-red.png
+    :height: 256 px
+    :align: center
+    :alt: chzklkt logo
     
 Go to my github repository at the bottom for more variations.
 
