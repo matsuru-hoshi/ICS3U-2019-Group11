@@ -37,7 +37,7 @@ Background:
  
 Logo:
 
-.. figure:: ./images/chzklkt-logo-red.png
+.. figure:: ./images/chzklkt-logo.png
     :height: 256 px
     :align: center
     :alt: chzklkt logo
