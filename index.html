@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <title>Chzklkt</title>
-    </head>
-    <body>
-      <h1>Hello, World!</h1>
-    </body>
+  <head>
+    <title>Web App</title>
+  </head>
+  <body>
+    <div id="user_info">
+      <p>Please wait ...</p>
+    </div>
+    <div>
+      <button onclick="getUser()">Click me</button>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+
+    async function getUser() {
+      // get the user info from API
+
+      const api_url = 'your_API_URL?user_email=jane.smith@gmail.com'
+      const api_response = await fetch(api_url);
+      const api_data = await(api_response).json();
+
+      const div_user_info = document.getElementById('user_info');
+      div_user_info.innerHTML = api_data['body'];
+    }
+  </script>
 </html>
