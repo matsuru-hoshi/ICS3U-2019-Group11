@@ -4,25 +4,9 @@
     <title>Web App</title>
   </head>
   <body>
-    <div id="user_info">
-      <p>Please wait ...</p>
-    </div>
-    <div>
-      <button onclick="getUser()">Click me</button>
-    </div>
+    <p><a href="https://chzklkt.auth.us-east-1.amazoncognito.com/signup?client_id=fdma68pj4kj65qhc43t2fpm1p&response_type=code&scope=profile+aws.cognito.signin.user.admin+openid+email+phone&redirect_uri=https://example.com">Sign up</a></p>
+    <p><a href="./sign-in.html">Sign in</a></p>
+    <p><a href="./sign-out.html">Sign out</a></p>
+    <p>The password is Hotdogs123$</p>
   </body>
-
-  <script type="text/javascript">
-
-    async function getUser() {
-      // get the user info from API
-
-      const api_url = 'your_API_URL?user_email=jane.smith@gmail.com'
-      const api_response = await fetch(api_url);
-      const api_data = await(api_response).json();
-
-      const div_user_info = document.getElementById('user_info');
-      div_user_info.innerHTML = api_data['body'];
-    }
-  </script>
 </html>
