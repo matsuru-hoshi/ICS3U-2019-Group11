@@ -11,7 +11,9 @@
   <div class="container">
     <div>
       <h1>Sign Out</h1>
-      <p>Successfully signed-out</p>
+        <div id="signout">
+          <p></p>
+        </div>
     </div>
 
     <br>
@@ -42,9 +44,12 @@
             // sign out
             cognitoUser.signOut();
             console.log("Signed-out");
+            document.getElementById("signout").innerHTML = "Successfully signed-out";
         });
       } else {
         console.log("Already signed-out")
+        document.getElementById("signout").innerHTML = "Already signed-out";
+        
       }
     }
   </script>

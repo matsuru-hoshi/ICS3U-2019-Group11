@@ -11,24 +11,23 @@
     <div>
       <h1>Profile</h1>
     </div>
-    <div id='profile'>
-      <p></p>
-    </div>
+      <div id='home'>
+        <p>
+          <a href='./index.html'>Home</a> <a id="sign-out" href="./sign-out.html"></a>
+        </p>
+      </div>
+      <br>
+      <div id='profile'>
+        <p></p>
+      </div>
   <div>
-
-    <br>
-    <div id='home'>
-      <p>
-        <a href='./index.html'>Home</a>
-      </p>
-    </div>
 
   <script>
 
     async function getUser(email_address) {
       // get the user info from API Gate
 
-      const api_url = 'https://gonvpjbyuf.execute-api.us-east-1.amazonaws.com/prod/user-profile?user_email=' + email_address;
+      const api_url = 'https://gonvpjbyuf.execute-api.us-east-1.amazonaws.com/prod/user-profile?user_email=jane.smith@gmail.com';
       const api_response = await fetch(api_url);
       const api_data = await(api_response).json();
       console.log(api_data);
@@ -60,12 +59,15 @@
               }
               // user email address
               console.log(result[2].getValue());
-              getUser(result[2].getValue())
+              //getUser(result[2].getValue())
+              document.getElementById("profile").innerHTML = "You are logged in as: " + result[2].getValue();
+              document.getElementById("sign-out").innerHTML = "Sign out";
             });
 
           });
         } else {
-          console.log("Already signed-out")
+          console.log("User not logged in")
+          document.getElementById("profile").innerHTML = "Sign in to view your profile.";
         }
       }
     </script>
