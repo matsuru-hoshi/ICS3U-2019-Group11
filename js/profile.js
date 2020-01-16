@@ -35,6 +35,7 @@ function getUserAttributes() {
         }
         // user email address
         console.log(result[2].getValue());
+        console.log(result);
         //getUser(result[2].getValue())
         document.getElementById("profile").innerHTML = "You are logged in as: " + result[2].getValue();
         document.getElementById("sign-out").innerHTML = "Sign out";
