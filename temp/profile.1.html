@@ -19,7 +19,7 @@
   	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.596.0.min.js"></script> 
   	<script src="./js/amazon-cognito-identity.min.js"></script>   
   	<script src="./js/config.js"></script>
-  	<script type="text/javascript" src="./js/sign-out.js"></script>
+  	<script type="text/javascript" src="./js/profile.js"></script>
   	
     <title>Chzklkt</title>
   </head>
@@ -36,7 +36,7 @@
         <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
           <!--<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1</a>-->
-          <a href="./my-chocolates.html" class="mdl-layout__tab">My Chocholates</a>
+          <a href="#fixed-tab-2" class="mdl-layout__tab">My Chocholates</a>
           <a href="#fixed-tab-3" class="mdl-layout__tab">Discover</a>
         </div>
       </header>
@@ -44,7 +44,9 @@
         <span class="mdl-layout-title">Menu</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="./index.html">Home</a>
+          <a class="mdl-navigation__link" href="./profile.html">Profile</a>
           <a class="mdl-navigation__link" href="./sign-in.html">Sign in</a>
+          <a class="mdl-navigation__link" href="./sign-out.html"></a>
         </nav>
       </div>
       <main class="mdl-layout__content">
@@ -67,8 +69,8 @@
 
 		<div class="container">
       <div>
-        <h1>Sign Out</h1>
-          <div id="signout">
+        <h1>Profile</h1>
+          <div id="profile">
             <p></p>
           </div>
       </div>
@@ -77,7 +79,7 @@
   </body>
   <script>
     window.onload = function() {
-      const temp_var = signOut();
+      const temp_var = getUserAttributes();
     }
   </script>
 </html>

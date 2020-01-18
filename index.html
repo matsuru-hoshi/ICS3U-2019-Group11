@@ -17,38 +17,35 @@
   </head>
   
   <body>
-      <!-- Simple header with fixed tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
-            mdl-layout--fixed-tabs">
-  <header class="mdl-layout__header">
+<!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title"></span>
-    </div>
-    <!-- Tabs -->
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <!--<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1</a>-->
-      <a href="#fixed-tab-2" class="mdl-layout__tab">My Chocholates</a>
-      <a href="#fixed-tab-3" class="mdl-layout__tab">Discover</a>
+      <span class="mdl-layout-title">Title</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="./index.html">Home</a>
+        <a class="mdl-navigation__link" href="./sign-in.html">Sign in</a>
+        <a class="mdl-navigation__link" href="">Sign Up</a>
+        
+      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Menu</span>
+    <span class="mdl-layout-title">Title</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="./sign-in.html">Sign in</a>
-      <a class="mdl-navigation__link" href="./sign-out.html">Sign Out</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <!--<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-      <div class="page-content"><!-- Your content goes here</div>
-    </section>-->
-    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
+    <div class="page-content"><!-- Your content goes here --></div>
   </main>
 </div>
     
@@ -74,6 +71,7 @@
         <li class="mdl-list__item">
           <span class="mdl-list__item-primary-content">
             The password is Hotdogs123$
+            The password is pen4Africa! or Pen4Africa!
           </span>
         </li>
       </ul>

@@ -23,6 +23,9 @@ function signOut() {
         cognitoUser.signOut();
         console.log("Signed-out");
         document.getElementById("signout").innerHTML = "Successfully signed-out";
+        
+        // automatically redirect to home.html after logging out
+        window.location.replace("./index.html");
     });
   } else {
     console.log("Already signed-out")
