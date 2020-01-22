@@ -1,16 +1,28 @@
 // discover.js
 
-//async function getNumber(email_address) {
-  // get the user info from API Gate
+async function getUserNumber(email_address) {
+  // get the user chocolate number from API Gateway
 
-  //const api_url = 'https://bh3f6qh1w2.execute-api.us-east-1.amazonaws.com/prod/user-profile?user_email=' + email_address;
-  //const api_response = await fetch(api_url);
-  //const api_data = await(api_response).json();
-  //console.log(api_data);
+  const api_url = 'https://bh3f6qh1w2.execute-api.us-east-1.amazonaws.com/prod/user-profile?user_email=' + email_address;
+  const api_response = await fetch(api_url);
+  const api_data = await(api_response).json();
+  console.log(api_data);
+  
+  console.log(api_data);
+  return parseInt(api_data);
+}
 
-  //const div_user_info = document.getElementById('text');
-  //div_user_info.innerHTML = api_data['body'];
-//}
+async function returnUserNumber(email_address) {
+  //Passes user email to getUserNumber()
+  var chocolate_number = await getUserNumber(email_address);
+        
+  //get the user info from API Gate
+
+  const api_url = 'https://rf79scj6x0.execute-api.us-east-1.amazonaws.com/prod/update-number?user_email=' + email_address + '&chocolate_number=' + chocolate_number;
+  const api_response = await fetch(api_url);
+  const api_data = await(api_response).json();
+  console.log(api_data);
+}
 
 function add() {
   var data = {
@@ -34,9 +46,13 @@ function add() {
           return;
         }
         // user email address
+        
         //console.log(hi);
         //console.log(result[2].getValue());
-        //getNumber(result[2].getValue())
+        
+        //Passes user email to returnUserNumber()
+        returnUserNumber(result[2].getValue());
+        
         document.getElementById("text").innerHTML = "Added";
       });
 
@@ -45,8 +61,4 @@ function add() {
     console.log("User not logged in")
     document.getElementById("text").innerHTML = "Sign in to view your profile.";
   }
-}
-
-function temp() {
-  document.getElementById("text").innerHTML = "Added";
 }

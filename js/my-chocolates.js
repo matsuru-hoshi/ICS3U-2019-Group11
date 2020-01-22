@@ -1,7 +1,7 @@
 // my-chocolates.js
 
 async function getNumber(email_address) {
-  // get the user info from API Gate
+  // get the user chocolate number from API Gateway
 
   const api_url = 'https://bh3f6qh1w2.execute-api.us-east-1.amazonaws.com/prod/user-profile?user_email=' + email_address;
   const api_response = await fetch(api_url);
@@ -13,6 +13,7 @@ async function getNumber(email_address) {
 }
 
 function getChocolateNumber() {
+  // Checks if the user is logged in. If yeah, then getNumber() runs
   var data = {
     UserPoolId : _config.cognito.userPoolId,
     ClientId : _config.cognito.clientId
@@ -36,7 +37,8 @@ function getChocolateNumber() {
         // user email address
         console.log(result);
         //console.log(result[2].getValue());
-        getNumber(result[2].getValue())
+        getNumber(result[2].getValue());
+        
         //document.getElementById("text").innerHTML = "The chocolate number is:" + result[2].getValue();
       });
 
